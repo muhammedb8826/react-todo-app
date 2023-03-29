@@ -1,7 +1,11 @@
+import Header from './components/Header';
+import TodosLogic from './logic/TodosLogic';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Header />
+      <TodosLogic />
     </div>
   );
 }
